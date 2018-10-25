@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: #00050b;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  /* height: 70px */
+  text-align: center;
+  background-color: black;
+}
+
+.container {
+  max-width: 86%;
+  margin: 0 auto;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.topMenu .menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.menuItem {
+  display: inline-block;
+  padding: 1em;
+}
+
+.menuLink {
+  font-weight: bold;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.botao {
+  background-color: #116fff;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+}
+
+footer {
+  padding: 2em 0;
+  color: #ccc;
+  text-align: center;
+}

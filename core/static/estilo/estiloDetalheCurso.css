@@ -1,0 +1,23 @@
+table{
+    text-align: center;
+    margin: auto;
+    background-color: azure;
+    color: black;
+}
+
+td{
+    padding-bottom: 20px;
+}
+
+caption{
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: lightblue;
+}
+
+.principal{
+    display: block;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}

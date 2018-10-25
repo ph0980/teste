@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LISTA DE CURSOS</title>
+    <!-- Css para resetar algumas propriedades diferentes da padrão by Kise -->
+<<<<<<< HEAD:projeto_lms/lms/core/templates/listaCursos.html
+    <link rel="stylesheet" href="/static/estilo/normakise.css">
+=======
+    <link rel="stylesheet" href="static/css/normakise.css">
+>>>>>>> 13920e371c9cae04cd1c8462b07d3b35b1b3429b:listaCursos/listaCursos.html
+    <!-- Css de estilos padrões do projeto -->
+    <link rel="stylesheet" type="text/css" href="/static/estilo/site.css">
+    <link rel="stylesheet" href="/static/estilo/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">
+                <a href="{% url 'index' %}"><img src="/static/img/logo.png" alt="[Faculdade Impacta]"></a>
+            </h1>
+            <nav class="topMenu">
+                <ul class="menu">
+<<<<<<< HEAD:projeto_lms/lms/core/templates/listaCursos.html
+                    <li class="menuItem"><a href="{% url 'listaCursos' %}" class="menuLink">Cursos</a></li>
+                    <li class="menuItem"><a href="{% url 'detalheCurso' %}" class="menuLink">Detalhes dos Cursos</a></li>
+                    <li class="menuItem"><a href="{% url 'disciplina' %}" class="menuLink">Disciplinas</a></li>
+                    <li class="menuItem"><a href="{% url 'noticias' %}" class="menuLink">Notícias</a></li>
+=======
+                    <li class="menuItem"><a href="listaCursos.html" class="menuLink">Cursos</a></li>
+                    <li class="menuItem"><a href="../detalheCurso/detalheCurso.html" class="menuLink">Detalhes dos Cursos</a></li>
+                    <li class="menuItem"><a href="../disciplina/disciplina.html" class="menuLink">Disciplinas</a></li>
+                    <li class="menuItem"><a href="../noticias/noticias.html" class="menuLink">Notícias</a></li>
+>>>>>>> 13920e371c9cae04cd1c8462b07d3b35b1b3429b:listaCursos/listaCursos.html
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="principal">
+        <h1 class='titulo'>Lista de cursos</h1>
+        <table>
+            <caption>Cursos disponíveis</caption>
+            <tr>
+                <td>Administração</td>
+                <td>Análise e desenvolvimento de sistemas</td>
+                <td>Banco de dados</td>
+            </tr>
+            <tr>
+                <td>Gestão da tecnologia da informação</td>
+                <td>Jogos digitais</td>
+                <td>Processos gerenciais</td>
+            </tr>
+            <tr>
+                <td>Produção multimídia</td>
+                <td>Redes de computadores</td>
+                <td>Sistemas de informação</td>
+            </tr>
+
+        </table>
+    </div>
+    <footer>
+        <p>Exercicio Devops - 13/09/2018</p>
+    </footer>
+</body>
+
+</html>

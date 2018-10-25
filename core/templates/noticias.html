@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NOTÍCIAS</title>
+    <!-- Css para resetar algumas propriedades diferentes da padrão by Kise -->
+<<<<<<< HEAD:projeto_lms/lms/core/templates/noticias.html
+    <link rel="stylesheet" href="/static/estilo/normakise.css">
+=======
+    <link rel="stylesheet" href="static/css/normakise.css">
+>>>>>>> 13920e371c9cae04cd1c8462b07d3b35b1b3429b:noticias/noticias.html
+    <!-- Css de estilos padrões do projeto -->
+    <link rel="stylesheet" type="text/css" href="/static/estilo/site.css">
+    <link rel="stylesheet" href="/static/estilo/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">
+                <a href="{% url 'index' %}"><img src="/static/img/logo.png" alt="[Faculdade Impacta]"></a>
+            </h1>
+            <nav class="topMenu">
+                <ul class="menu">
+<<<<<<< HEAD:projeto_lms/lms/core/templates/noticias.html
+                    <li class="menuItem"><a href="{% url 'listaCursos' %}" class="menuLink">Cursos</a></li>
+                    <li class="menuItem"><a href="{% url 'detalheCurso' %}" class="menuLink">Detalhes dos Cursos</a></li>
+                    <li class="menuItem"><a href="{% url 'disciplina' %}" class="menuLink">Disciplinas</a></li>
+                    <li class="menuItem"><a href="{% url 'noticias' %}" class="menuLink">Notícias</a></li>
+=======
+                    <li class="menuItem"><a href="../listaCursos/listaCursos.html" class="menuLink">Cursos</a></li>
+                    <li class="menuItem"><a href="../detalheCurso/detalheCurso.html" class="menuLink">Detalhes dos Cursos</a></li>
+                    <li class="menuItem"><a href="../disciplina/disciplina.html" class="menuLink">Disciplinas</a></li>
+                    <li class="menuItem"><a href="noticias.html" class="menuLink">Notícias</a></li>
+>>>>>>> 13920e371c9cae04cd1c8462b07d3b35b1b3429b:noticias/noticias.html
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="noticia">
+        <h1 class="titulo">Power BI, da Microsoft, terá integração com Python</h1>
+        <img class="img" src="/static/img/shutterstock_629903522.jpg">
+        <p>O Power BI, suíte de análise de negócios da Microsoft, agora se integra à linguagem de programação Python,
+            de acordo com uma prévia do recurso na versão mais atualizada da plataforma.</p>
+
+        <p>Conforme descrito em um post do blog resumindo o lançamento, os scripts Python podem ser executados
+            diretamente dentro do aplicativo Power BI Desktop e podem ser aproveitados para “limpeza, análise e
+            visualização de dados”.</p>
+
+
+        <p>Ao selecionar “Python” na caixa de diálogo “Obter dados”, o
+            usuário pode colar um script Python em uma janela fornecida e usar a saída do quadro de dados de um script
+            como fonte.
+            O script Python também pode ser usado para criar visuais em um relatório.
+            Os visuais são atualizados automaticamente sempre que os dados mudam, embora “o visual em si não seja
+            interativo”.</p>
+
+
+        <p>A Microsoft também divulgou um arquivo Demo do Power BI com exemplos de pacotes populares do
+            Python usados ​​para criar visualizações e transformações para um conjunto de dados de amostra.
+            Inclui, por exemplo, as bibliotecas de plotagem visual Seaborn e Altair; Scikit-learn, uma biblioteca
+            popular
+            para tarefas de machine learning, bem como o FlashText, um sistema de busca e substituição regex-like, e o
+            PyFlux /Pendulum para análise de data e hora.</p>
+
+
+        <p>O Power BI há muito tempo se integra ao R, outra linguagem popular para manipulação e análise de dados.
+            Mas enquanto o R permaneceu uma linguagem de nicho, o Python desfrutou foi amplamente adotado tanto nos
+            círculos de ciência de dados quanto na população geral de programação, graças à sua ampla seleção de
+            pacotes
+            de terceiros que lidam com quase todas as necessidades imagináveis ​​de manipulação de dados.</p>
+
+
+        <p>A Microsoft também pode estar considerando a integração do Python com seu produto de planilha do Excel,
+            baseado
+            em uma pesquisa com usuários sobre o Excel que circulou no final do ano passado. No entanto, nenhum anúncio
+            oficial
+            foi feito ainda. A Microsoft enfatizou após a conclusão da pesquisa que esta era “uma área de exploração
+            para nós, sem
+            nenhum cronograma específico”.</p>
+
+
+        <p>Outras adições ao Power BI incluem um recurso de impressão para PDF e um conector de dados para clusters do
+            Apache Spark.
+            Muitas das atualizações do Power BI Desktop devem aparecer em uma versão futura do Power BI Report Server,
+            cuja versão
+            está prevista para o final de agosto.</p>
+    </div>
+    <footer>
+        <br>
+        <p>Exercicio Devops - 13/09/2018</p>
+    </footer>
+</body>
+
+</html>

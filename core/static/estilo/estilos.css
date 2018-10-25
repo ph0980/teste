@@ -1,0 +1,66 @@
+.conteudo {
+  display: block;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  text-align: center;
+}
+
+.destaque {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+  text-transform: uppercase;
+  background-image: url(../img/destaqueBanner.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.tituloEsquerda,
+.tituloDireita {
+  display: inline-block;
+}
+
+.tituloEsquerda {
+  font-size: 3.4em;
+  margin: 0;
+}
+
+.tituloDireita {
+  position: relative;
+  bottom: 0.7em;
+  font-size: 1.4em;
+  margin: 0;
+  margin-left: 0.5em;
+}
+
+.tituloDireita::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  background-color: white;
+}
+
+.destaqueTexto {
+  font-size: 1.9em;
+}
+
+.destaqueTextoImg {
+  max-width: 125px;
+}
+
+.destaqueBotao {
+  width: 370px;
+  margin-top: 1em;
+  font-size: 1.7em;
+  font-weight: bolder;
+}
+
+.destaqueBotao:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}

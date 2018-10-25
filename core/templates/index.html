@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOME</title>
+    <!-- Css para resetar algumas propriedades diferentes da padrão by Kise -->
+    <link rel="stylesheet" href="/static/estilo/normakise.css">
+    <!-- Css de estilos padrões do projeto -->
+    <link rel="stylesheet" type="text/css" href="/static/estilo/site.css">
+    <link rel="stylesheet" href="/static/estilo/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">
+                <a href="{% url 'index' %}"><img src="/static/img/logo.png" alt="[Faculdade Impacta]"></a>
+            </h1>
+            <nav class="topMenu">
+                <ul class="menu">
+<<<<<<< HEAD:projeto_lms/lms/core/templates/index.html
+                    <li class="menuItem"><a href="{% url 'listaCursos' %}" class="menuLink">Cursos</a></li>
+                    <li class="menuItem"><a href="{% url 'detalheCurso' %}" class="menuLink">Detalhes dos Cursos</a></li>
+                    <li class="menuItem"><a href="{% url 'disciplina' %}" class="menuLink">Disciplinas</a></li>
+                    <li class="menuItem"><a href="{% url 'noticias' %}" class="menuLink">Notícias</a></li>
+=======
+                    <li class="menuItem"><a href="listaCursos/listaCursos.html" class="menuLink">Cursos</a></li>
+                    <li class="menuItem"><a href="detalheCurso/detalheCurso.html" class="menuLink">Detalhes dos Cursos</a></li>
+                    <li class="menuItem"><a href="disciplina/disciplina.html" class="menuLink">Disciplinas</a></li>
+                    <li class="menuItem"><a href="noticias/noticias.html" class="menuLink">Notícias</a></li>
+>>>>>>> 13920e371c9cae04cd1c8462b07d3b35b1b3429b:index.html
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="conteudo">
+
+        <div class="destaque">
+            <div class="destaqueTitulo">
+                <h2 class="tituloEsquerda">Vestibular 2018</h2>
+                <h3 class="tituloDireita">2º Semestre</h3>
+            </div>
+            <p class="destaqueTexto">
+                Sabe como a Tecnologia muda o
+                <img src="https://www.impacta.edu.br/themes/wc_agenciar3/images/landing-page/vestibular-20182/futuro.png"
+                    alt="Futuro" class="DestaqueTextoImg">
+                ?
+            </p>
+            <a href="https://www.impacta.edu.br" target="_blank" class="botao destaqueBotao">Últimas Vagas</a>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container">
+            <p>Exercicio Devops - 13/09/2018</p>
+        </div>
+    </footer>
+</body>
+
+</html>
