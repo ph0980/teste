@@ -26,7 +26,7 @@ SECRET_KEY = 'u1u5)2iur-g-6kyz522a3eg5q_@3c0d!5+3$=a72hu0sq8c$31'
 DEBUG = True
 
 #alterei isso aqui
-ALLOWED_HOSTS = ['lms-proj-2018.azurewebsites.net']
+ALLOWED_HOSTS = ['teste-django-milagre.azurewebsites.net']
 #ALLOWED_HOSTS = []
 
 
