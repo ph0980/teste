@@ -25,9 +25,9 @@ SECRET_KEY = 'u1u5)2iur-g-6kyz522a3eg5q_@3c0d!5+3$=a72hu0sq8c$31'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#alterei isso aqui
-ALLOWED_HOSTS = ['teste-django-milagre.azurewebsites.net']
-#ALLOWED_HOSTS = []
+#host do azure
+#ALLOWED_HOSTS = ['lms-proj-2018.azurewebsites.net']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -121,5 +121,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(STATIC,'static').replace('\\','/')
-STATICFILES_DIRS = ()
