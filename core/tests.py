@@ -4,5 +4,6 @@ from .views import *
 
 # Create your tests here.
 test__index():
-    assert index('index') == render(request,'index.html')
-    
+    request='index'
+    assert index(request) == render(request,'index.html')
+
