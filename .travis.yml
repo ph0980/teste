@@ -6,3 +6,6 @@ python:
   
 script:
   - python manage.py test
+  
+env:
+  - DJANGO_SETTINGS_MODULE="lms.settings.dev"
