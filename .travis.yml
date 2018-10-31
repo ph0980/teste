@@ -6,6 +6,11 @@ python:
   
 script:
   - python manage.py test
+
+install:
+  -pip install django
   
 env:
   - DJANGO_SETTINGS_MODULE="lms.settings"
+  
+
